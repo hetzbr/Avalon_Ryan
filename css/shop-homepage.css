@@ -26,9 +26,7 @@ body {
     overflow: hidden;
 }
 
-.caption h4 {
-    white-space: nowrap;
-}
+
 
 .thumbnail img {
     width: 100%;
@@ -85,6 +83,47 @@ body {
     padding-left: 7px;
 
 }
-                
-            
 
+.pull-right {
+   position:relative;
+}
+
+.dropdown {
+    padding-top: 5px;;
+    display: block;
+      
+}
+.dropdown button {
+    background-color: white;
+    font-family: "Poiret One",cursive;
+    font-size: 20px;
+}
+.col-md-9 {
+    width: 100%;
+}
+
+#space {
+    visibility: hidden;
+}
+#green {
+    color:green;
+}
+.dropdown-menu {
+    font-family: "Poiret One",cursive;
+    font-size: 20px;
+}
+
+h4 {
+    font-family: "Poiret One",cursive;
+     font-size: 23px;
+    font-weight: bold;
+}
+
+.caption {
+    margin-bottom: 15px;
+    overflow: visible;
+}
+
+.col-lg-12 {
+    text-align: center;
+}
