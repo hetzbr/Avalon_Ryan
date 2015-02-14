@@ -127,3 +127,54 @@ h4 {
 .col-lg-12 {
     text-align: center;
 }
+h3 {
+    font-family: "Poiret One",cursive;
+     font-size: 23px;
+    font-weight: bold;
+    color: #337ab7;
+}
+
+#title {
+    color: black;
+}
+
+.jumbotron {
+    background-color: white;
+    padding-right: 15px;;
+    
+}
+
+.jumbotron h1 {
+     font-family: "Poiret One",cursive;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.jumbotron img {
+   margin-left: 2px;
+
+    
+}
+
+h2 {
+    font-family: "Poiret One",cursive;
+     font-size: 2em;
+        font-weight: bold;
+}
+
+#funeral {
+font-size: 19px;
+    font-weight: 200;
+}
+
+.images {
+    width: 50%;
+}
+
+#fbook {
+    padding: 0px;
+
+}
+
+    
+    
