@@ -21,10 +21,31 @@ body {
     border-radius: 4px;
 }
 
-.caption {
-    height: 130px;
-    overflow: hidden;
+
+.carousel-caption {
+background: #FFFFFF;
+opacity: 0.7;
+color:#333;
+padding-left: 5%;
+padding-right:5%;
+max-width:100%;
+    
+
+    
 }
+
+
+
+
+.paragraphcaption {
+font-size:.75em;
+padding-bottom:1.5em;
+font-weight:normal;
+}
+
+
+
+
 
 
 
@@ -40,10 +61,11 @@ body {
 
 .thumbnail {
     padding: 0;
+	position: relative;
 }
 
 .thumbnail .caption-full {
-    padding: 9px;
+   
     color: #333;
 }
 
@@ -107,6 +129,7 @@ body {
 }
 #green {
     color:green;
+    font-weight: bolder;
 }
 .dropdown-menu {
     font-family: "Poiret One",cursive;
@@ -121,7 +144,7 @@ h4 {
 
 .caption {
     margin-bottom: 15px;
-    overflow: visible;
+    overflow: hidden;
 }
 
 .col-lg-12 {
@@ -147,7 +170,10 @@ h3 {
 .jumbotron h1 {
      font-family: "Poiret One",cursive;
     font-size: 2.5em;
-    font-weight: bold;
+    font-weight:bolder;
+    color: green;
+    
+;
 }
 
 .jumbotron img {
@@ -160,6 +186,7 @@ h2 {
     font-family: "Poiret One",cursive;
      font-size: 2em;
         font-weight: bold;
+    color: green;
 }
 
 #funeral {
@@ -172,9 +199,104 @@ font-size: 19px;
 }
 
 #fbook {
-    padding: 0px;
+    padding-top: 5px;
 
 }
 
+#arrangement {
+    color: green;
+     font-family: Helvetica Neue;
+     font-weight: 300;
+    padding-bottom: 15px;
+}
+
+.snipcart-add-item {
+    -moz-user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857;
+    margin-bottom: 0;
+    padding: 6px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    color: #fff;
+}
+
+.dropdown:hover .dropdown-menu {
+display: block;
+}
+ .jumbotron h1 {
+     font-family: Helvetica Neue;
+     font-weight: 300;
+ }
+
     
+.carousel-caption h2 {
+    margin-top: 5px;
+    margin-bottom: 2px;
+    color: black;
+    font-family: Helvetica Neue;
+    font-weight: 300;
+    color: green;
+    
+}
+.carousel-caption p {
+    margin-bottom: 0px;
+     font-family:sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+@media (max-width: 1200px) {
+        
+    .carousel-caption p {
+       display: none;
+    }
+    
+@media (max-width: 991px) {
+    
+    .carousel-caption h2 {
+        font-size: 1.4em;
+        
+    }
+    .carousel-caption p {
+       display: none;
+    }
+        
+    
+@media (max-width: 767px) {
+    
+    .carousel-caption {
+        padding-left: 10px;
+    }
+    
+    .carousel-caption h2 {
+        font-size: 2em;
+     
+    }
+        
+    .carousel-caption p {
+       display: block;
+       
+    }
+    
+.arrangements {
+    margin-bottom: 15px;
+}
+   
+    
+
+    
+    
+    
+    
+
     
